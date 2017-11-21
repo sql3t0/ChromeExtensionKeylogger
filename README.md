@@ -3,7 +3,7 @@
   
   This is a simple extension developed for the chrome browser and whose function is to capture and send to a server, all the keys     typed in any page that the extension is activated.
 
-#requirements
+#Requirements
    - Required physical access to the target machine.
 
 #Installation
