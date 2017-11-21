@@ -5,7 +5,7 @@
 		$date = new DateTime("now", new DateTimeZone('America/Fortaleza') ); //SET YOUR DATETIMEZONE
 		$d =  $date->format('d/m/Y H:i:s');
 		$log = $_GET['values'];
-		$txt = '<tr> <th scope="row">'.$ip.'<br> '.$d.' </th> <td width="100%"> '.$log.' </td> </tr>';
+		$txt = '<tr> <th scope="row">'.$ip.'<br> '.$d.' </th> <td width="100%" class="box3D"> '.$log.' </td> </tr>';
 		$myfile = fopen("logs.html", "a+") or die("Unable to open file!");
 		fwrite($myfile, $txt);
 		fclose($myfile);
